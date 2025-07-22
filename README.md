@@ -6,89 +6,64 @@
 
 **Olá, Dev!**  
 
-Este é um projeto full stack com arquitetura API RESTful no backend, desenvolvido em **Kotlin** com o framework **Spring Boot**, e um frontend criado em **React**.  
-
-O sistema tem como objetivo simplificar o gerenciamento dos equipamentos de TI, facilitando o cadastro, atualização e visualização dos dados de forma organizada.  
-
----
+Este repositório contém uma atividade desenvolvida para o meu TCC do curso técnico em Desenvolvimento de Sistemas, com objetivo de simplificar o gerenciamento dos equipamentos de TI no ambiente corporativo, facilitando o cadastro, atualização e visualização dos dados de forma organizada. A aplicação foi construída em em Kotlin com o uso do framework Spring, no backend, e React, no frontend.  
 
 ## Pré-Requisitos  
 
 ### Backend  
 
-- IntelliJ IDEA  
-    - Como instalar?  
-        - Instalação manual: [baixar](https://www.jetbrains.com/idea/download/)  
-- Java JDK 17  
-    - Como instalar?  
-        - Instalação manual: [baixar](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)  
-- Docker Desktop  
-    - Como instalar?  
-        - Instalação manual: [baixar](https://www.docker.com/products/docker-desktop/)  
+- [Java JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 
-### Frontend  
+- [Node.js](https://nodejs.org/en/download/)
+    
+- [Docker](https://www.docker.com/products/docker-desktop/)
 
-- Node.js (versão 18.x)  
-    - Como instalar?  
-        - Instalação manual: [baixar](https://nodejs.org/)  
-- Um editor de código, como **VSCode**  
-    - Como instalar?  
-        - Instalação manual: [baixar](https://code.visualstudio.com/)  
-
----
-
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
+  
+- [Visual Studio Code](https://code.visualstudio.com/download)
+ 
 ## Ambiente de Desenvolvimento  
 
 ### Configuração do Backend  
 
-1. **Importe o Projeto no IntelliJ IDEA**  
-    - Abra o IntelliJ IDEA.  
-    - Selecione `File -> Open` e navegue até a pasta `backend`.  
-    - Selecione a pasta e clique em `Open`.  
+1. **Inicie o contêiner Docker**
 
-2. **Configuração do Gradle**  
-    - Após a importação, o Gradle será configurado automaticamente.  
-    - Caso necessário, force a sincronização clicando em `Build -> Build Project`.  
-
-3. **Configuração do Docker**  
-    - Para testar a aplicação com o banco de dados PostgreSQL, inicie o Docker Desktop.  
-    - No terminal, execute o comando abaixo na pasta `backend`:  
-
-    ```bash  
+    Para testar a aplicação com o banco de dados PostgreSQL, inicie o Docker Desktop. 
+    
+    Com o projeto devidamente armazenado localmente, abra um terminal na pasta `Technical-Project -> backend`.
+    
+    ```shell
     docker compose up
-    ```  
+    ```
 
-4. **Execute o Backend**  
-    - No IntelliJ IDEA, localize a classe `EquipmentsApplication` (marcada com `@SpringBootApplication`).  
-    - Clique com o botão direito na classe e selecione `Run EquipmentsApplication.main()`.  
+2. **Execute o Projeto**
 
-5. **Acesse o Swagger**  
-    - Após a aplicação iniciar, acesse o Swagger em: [localhost:8080](http://localhost:8080/swagger-ui/index.html).  
+    Abra o projeto backend utilizando o IntelliJ IDEA e localize a classe `EquipmentsApplication` (marcada com `@SpringBootApplication`).
+
+    Clique com o botão direito na classe e selecione `Run EquipmentsApplication.main()`.
+
 
 ### Configuração do Frontend  
 
-1. **Instale as Dependências**  
-    - Navegue até a pasta `frontend` pelo terminal:  
+1. **Instale as Dependências**
 
-    ```bash  
-    cd frontend  
-    ```  
-    - Instale as dependências do projeto:  
+    Abra o projeto frontend utilizando o Visual Studio Code e abra um novo terminal.
 
     ```bash  
     npm install  
     ```  
 
-2. **Inicie o Frontend**  
-    - Ainda na pasta `frontend`, inicie o servidor de desenvolvimento:  
-
+3. **Inicie o Frontend**
+   
     ```bash  
     npm start  
     ```  
 
-    - O front-end estará disponível em [localhost:3000](http://localhost:3000).  
+   Você deve ver a aplicação rodando em [localhost:3000](http://localhost:3000).  
 
----
+## Documentação
+
+Após o projeto backend iniciar, você pode acessar a interface do Swagger em: [localhost:8080](http://localhost:8080/swagger-ui/index.html).
 
 ### Onde obter ajuda?
 
