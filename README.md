@@ -6,11 +6,9 @@
 
 **Olá, Dev!**  
 
-Este repositório contém uma atividade desenvolvida para o meu TCC do curso técnico em Desenvolvimento de Sistemas, com objetivo de simplificar o gerenciamento dos equipamentos de TI no ambiente corporativo, facilitando o cadastro, atualização e visualização dos dados de forma organizada. A aplicação foi construída em em Kotlin com o uso do framework Spring, no backend, e React, no frontend.  
+Este repositório contém uma atividade desenvolvida para o meu TCC do curso técnico em Desenvolvimento de Sistemas, com objetivo de simplificar o gerenciamento dos equipamentos de TI no ambiente corporativo, facilitando o cadastro, atualização e visualização dos dados de forma organizada. A aplicação foi construída em em Kotlin com o uso do framework Spring, no backend, e React, no frontend. Este guia fornece as instruções para configurar e rodar o projeto localmente.
 
 ## Pré-Requisitos  
-
-### Backend  
 
 - [Java JDK 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 
